@@ -1,6 +1,6 @@
-#Leetcode算法题：第一周
+# Leetcode算法题：第一周
 
-##**问题**
+## **问题**
 
 1. 双指针(题号：167)**：<https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/>*
 
@@ -14,11 +14,11 @@
 
 
 
-##**解答**
+## **解答**
 
 
 
-###[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+### [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 
 *关键词：数组，双指针，二分查找* 
 
@@ -95,17 +95,18 @@ public:
 
 ​	输入: [3,2,1,5,6,4] 和 k = 2
 ​	输出: 5
+
 **示例 2:**
 
 ​	输入: [3,2,3,1,2,4,5,5,6] 和 k = 4
 ​	输出: 4
-**说明:**
 
+**说明:**
 你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。
 
 
 
-**思路1：**直接使用排序
+**思路1：** 直接使用排序
 
 ​	使用排序的思路很容易想，如果按照从小到大的元素对数组排序，那么第k大的元素则为nums[nums.size()-k]。
 
