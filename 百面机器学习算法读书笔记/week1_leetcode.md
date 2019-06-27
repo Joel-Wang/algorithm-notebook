@@ -2,9 +2,10 @@
 
 ## **问题**
 
-1. 双指针(题号：167)**：<https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/>*
+**1. 双指针(题号：167)**：<https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/>*
 
-2. 排序**：
+**2. 排序**：
+
    * 快速选择、堆排序（题号：215）：<https://leetcode.com/problems/kth-largest-element-in-an-array/description/>
    * 桶排序（题号：347）：<https://leetcode.com/problems/top-k-frequent-elements/description/>
    * 荷兰国旗问题（题号：75）：<https://leetcode.com/problems/sort-colors/description/>
@@ -88,10 +89,9 @@ public:
 *关键词：分治算法，堆* 
 
 
-
 在未排序的数组中找到第 k 个最大的元素。请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
 
-**示例 1: **
+**示例 1:**
 
 ​	输入: [3,2,1,5,6,4] 和 k = 2
 ​	输出: 5
@@ -510,7 +510,7 @@ public:
 };
 ```
 
-#### [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)
+### [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)
 
 *关键词：计数排序，数组，双指针，荷兰国旗问题* 
 
@@ -601,7 +601,7 @@ public:
 * 时间复杂度 :由于对长度 N的数组进行了一次遍历，时间复杂度为O(N) 。
 * 空间复杂度 :由于只使用了常数空间，空间复杂度为O(1) 。
 
-#### [455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
+### [455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
 
 *关键词：贪心算法，快速排序*
 
@@ -622,6 +622,7 @@ public:
 你有三个孩子和两块小饼干，3个孩子的胃口值分别是：1,2,3。
 虽然你有两块小饼干，由于他们的尺寸都是1，你只能让胃口值是1的孩子满足。
 所以你应该输出1。
+
 **示例 2:**
 
 ​	输入: [1,2], [1,2,3]
@@ -637,7 +638,7 @@ public:
 
 
 
-**思路：**这是一道很简单的贪心算法题目，只需要每次优先给胃口小的孩子发较小的饼干即可，不予赘述；
+**思路：** 这是一道很简单的贪心算法题目，只需要每次优先给胃口小的孩子发较小的饼干即可，不予赘述；
 
 **代码1：** 由于这道题是考察贪心算法，因此先直接调用sort
 
