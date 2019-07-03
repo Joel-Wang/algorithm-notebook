@@ -43,7 +43,7 @@
 
 **代码**
 
-```
+```c++
 class Solution {
 public:
     int mySqrt(int x) {
