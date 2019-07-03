@@ -75,6 +75,7 @@ public:
 解释: 
 ((2-1)-1) = 0 
 (2-(1-1)) = 2
+
 示例 2:
 
 输入: "2*3-4*5"
@@ -208,7 +209,7 @@ ps: 虽然下标有0但是检测是否存在目标数的条件为m[b]>0，这是
 
 **代码**
 
-```
+```c++
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
