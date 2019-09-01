@@ -126,5 +126,5 @@ if __name__ == '__main__':
     # 加载模型
     trans_mat, emit_mat, init_vec, state_set = load_model()
     # 模型预测
-    res = predict("我在图书馆", state_set, init_vec, trans_mat, emit_mat)
+    res = predict("时间在变，人也在变。生命是一场无法回放的绝版电影，有些事，不管你如何努力，回不去就是回不去了。就算真的回去了，你也会发现，一切已经面目全非。唯一能回去的，只是存于心底的记忆。世界上最远的距离，不是爱，不是恨，而是熟悉的人，渐渐变得陌生。", state_set, init_vec, trans_mat, emit_mat)
     print("//".join(res))
